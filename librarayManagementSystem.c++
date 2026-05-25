@@ -137,7 +137,7 @@ void showBook(){
     }
     cout<<"books list: ";
     for ( int i=0;i<obj.size();i++)
-    {
+    {//data means id
         cout<<obj[i].data<<obj[i].title<<endl;
     }
 }
